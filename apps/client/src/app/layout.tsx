@@ -22,11 +22,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Beatsync",
+  title: "BoomBox",
   description:
-    "Beatsync is an open-source, web audio player built for multi-device playback.",
+    "BoomBox is an open-source, web audio player built for multi-device playback.",
   keywords: ["music", "sync", "audio", "collaboration", "real-time"],
-  authors: [{ name: "Freeman Jiang" }],
+  authors: [{ name: "Freeman Jiang, Shafayet, Sanjid" }],
 };
 
 export default function RootLayout({
@@ -47,6 +47,9 @@ export default function RootLayout({
           <Toaster />
           <Analytics />
         </PostHogProvider>
+        <footer className="w-full text-center py-4 text-xs text-neutral-500">
+          Reimagined for mobile by Shafayet & Sanjid
+        </footer>
       </body>
     </html>
   );
