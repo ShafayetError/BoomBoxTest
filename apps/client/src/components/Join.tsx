@@ -120,7 +120,7 @@ export const Join = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.1 }}
           >
-            Join a Beatsync Room
+            Join a BoomBox Room
           </motion.h2>
 
           <motion.p
