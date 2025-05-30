@@ -1,6 +1,6 @@
 "use client";
 import { useGlobalStore } from "@/store/global";
-import { Github, Hash, Users } from "lucide-react";
+import { Hash, Users } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 import { SyncProgress } from "../ui/SyncProgress";
@@ -77,16 +77,6 @@ export const TopBar = ({ roomId }: TopBarProps) => {
             Full Sync
           </button>
         </div>
-
-        {/* GitHub icon in the top right */}
-        <a
-          href="https://github.com/ShafayetError/BoomBoxTest"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-neutral-400 hover:text-white transition-colors"
-        >
-          <Github size={16} />
-        </a>
       </div>
     );
   }
