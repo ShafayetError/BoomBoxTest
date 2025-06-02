@@ -157,6 +157,66 @@ const STATIC_AUDIO_SOURCES: StaticAudioSource[] = [
     name: "joyful - chess (slowed)",
     url: "/joyful - chess (slowed).mp3",
   },
+  {
+    name: "60's LOVE - Level Five",
+    url: "/60's LOVE - Level Five.mp3",
+  },
+  {
+    name: "AFTERMATH l MOHO",
+    url: "/AFTERMATH l MOHO.m4a",
+  },
+  {
+    name: "Ahare-Minar",
+    url: "/Ahare-Minar.mp3",
+  },
+  {
+    name: "Amar Prithibi - Black",
+    url: "/Amar Prithibi - Black.m4a",
+  },
+  {
+    name: "Channa Ve_Akhil & Mansheel",
+    url: "/Channa Ve_Akhil & Mansheel.m4a",
+  },
+  {
+    name: "chess",
+    url: "/chess.mp3",
+  },
+  {
+    name: "Dil Tu Jaan Tu _ Gurnazar",
+    url: "/Dil Tu Jaan Tu _ Gurnazar.m4a",
+  },
+  {
+    name: "Etota_Valobashi-Recall",
+    url: "/Etota_Valobashi-Recall.mp3",
+  },
+  {
+    name: "Iraaday Song Abdul Hannan",
+    url: "/Iraaday Song Abdul Hannan.mp3",
+  },
+  {
+    name: "Jawl Phoring 2.0",
+    url: "/Jawl Phoring 2.0.m4a",
+  },
+  {
+    name: "Jeno Tomari Kache",
+    url: "/Jeno Tomari Kache.mp3",
+  },
+  {
+    name: "Porinita-Conclusion",
+    url: "/Porinita-Conclusion.m4a",
+  },
+  {
+    name: "See You Again_Wiz Khalifa ft. Charlie Puth",
+    url: "/See You Again_Wiz Khalifa ft. Charlie Puth.mp3",
+  },
+  {
+    name: "Sooraj Dooba Hai Yaaron",
+    url: "/Sooraj Dooba Hai Yaaron.mp3",
+  },
+  {
+    name: "Tumi_Ki_Sara_Dibe-Black",
+    url: "/Tumi_Ki_Sara_Dibe-Black.mp3",
+  },
 ].map((source, index) => ({
   ...source,
   id: `static-${index}`,
