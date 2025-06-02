@@ -51,33 +51,33 @@
 }
 
 :root {
-  --background: #fff8f0;          
-  --foreground: #fdfa26;           
-  --primary: #e11d48;              
-  --primary-foreground: #fffbe7;  
-  --secondary: #facc15;           
-  --secondary-foreground: #fdfa26;  
-  --muted: #f3e8ff;                
-  --muted-foreground: #fdfa26;    
-  --accent: #f57d2d;             
-  --accent-foreground: #fffbe7;   
-  --border: #e11d48;              
-  --input: #facc15;               
-  --ring: #f57d2d;             
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
+  --background: #fffdf8;           /* Light background */
+  --foreground: #2d2d2d;           /* Dark text (music note color) */
+  --primary: #f57d2d;              /* Orange (main triangle) */
+  --primary-foreground: #fff;      /* White text on orange */
+  --secondary: #facc15;            /* Yellow (left waves) */
+  --secondary-foreground: #2d2d2d; /* Dark text on yellow */
+  --muted: #ffe5b4;                /* Light orange/yellow for muted */
+  --muted-foreground: #b83280;     /* Magenta for muted text/icons */
+  --accent: #e11d48;               /* Magenta/Pink (right waves) */
+  --accent-foreground: #fff;       /* White text on accent */
+  --border: #f57d2d;               /* Orange border */
+  --input: #facc15;                /* Yellow input fields */
+  --ring: #e11d48;                 /* Magenta ring/focus */
+  --chart-1: #f57d2d;              /* Orange */
+  --chart-2: #facc15;              /* Yellow */
+  --chart-3: #e11d48;              /* Magenta */
+  --chart-4: #b83280;              /* Deep magenta */
+  --chart-5: #ffd600;              /* Bright yellow */
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #fffdf8;              /* Match background */
+  --sidebar-foreground: #2d2d2d;   /* Dark text */
+  --sidebar-primary: #f57d2d;      /* Orange */
+  --sidebar-primary-foreground: #fff;
+  --sidebar-accent: #e11d48;       /* Magenta */
+  --sidebar-accent-foreground: #fff;
+  --sidebar-border: #facc15;       /* Yellow border */
+  --sidebar-ring: #e11d48;         /* Magenta ring */
 }
 
 .dark {
